@@ -11,23 +11,20 @@ class Home extends Component {
           foo: props.defaultFoo,
         };
     }
-
     render () {
       return(
         <div className={'home'}>
-          <Carousel autoplay={true} autoplaySpeed={5000}>
+          <Carousel autoplay={false} autoplaySpeed={5000}>
             <div>
-              <img src={timg} alt={'home-pic1'} height={'300px'} width={'100%'} />
+              <img src={timg} alt={'home-pic1'} height={'auto'} width={'100%'} />
             </div>
             <div>
-              <img src={timg2} alt={'home-pic2'} height={'300px'} width={'100%'} />
+              <img src={timg2} alt={'home-pic2'} height={'auto'} width={'100%'} />
             </div>
             <div>
-              <img src={timg3} alt={'home-pic3'} height={'300px'} width={'100%'} />
+              <img src={timg3} alt={'home-pic3'} height={'auto'} width={'auto'} />
             </div>
           </Carousel>
-
-          this is Home page...
 
         </div>
         )
