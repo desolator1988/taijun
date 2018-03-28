@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import timg from '../static/img/baidu-timg.jpeg';
+import timg2 from '../static/img/baidu-timg2.jpeg';
+import timg3 from '../static/img/baidu-timg3.jpeg';
 import { Carousel } from 'antd';
 
 class Home extends Component {
@@ -15,16 +17,15 @@ class Home extends Component {
         <div className={'home'}>
           <Carousel autoplay={true} autoplaySpeed={5000}>
             <div>
-              <img src={timg} alt={'home-pic'} height={'300px'} width={'100%'} />
+              <img src={timg} alt={'home-pic1'} height={'300px'} width={'100%'} />
             </div>
             <div>
-              <img src={timg} alt={'home-pic'} height={'300px'} width={'100%'} />
+              <img src={timg2} alt={'home-pic2'} height={'300px'} width={'100%'} />
             </div>
             <div>
-              <img src={timg} alt={'home-pic'} height={'300px'} width={'100%'} />
+              <img src={timg3} alt={'home-pic3'} height={'300px'} width={'100%'} />
             </div>
           </Carousel>
-
 
           this is Home page...
 

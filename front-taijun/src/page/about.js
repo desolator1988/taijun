@@ -12,9 +12,6 @@ class About extends Component {
       return(
         <div className={'about'}>this is About page...</div>
         )
-
     }
-
-
 }
 export default About;
